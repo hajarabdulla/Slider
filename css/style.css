@@ -1,0 +1,325 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style-type: none;
+}
+.customnav{
+  height: 81px;
+  /* background-color: #361291; */
+  background-color: transparent;
+  justify-content: space-between;
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  transition: 0.3s ease-in-out;
+}
+.navrow{
+  padding-bottom: 10px;
+  width: 1140px;
+  display: flex;
+  justify-content: space-between;
+}
+.button1 a{
+  color: white;
+}
+.button1 a:hover{
+  text-decoration: none;
+}
+.button2 a{
+  color: black;
+}
+.button2 a:hover{
+  text-decoration: none;
+}
+.logo{
+  height: 50px;
+  width: 50px;
+}
+.navlinks{
+  padding-top: 15px;
+}
+.navlinks li{
+  display: inline-block;
+  padding-right: 20px;
+}
+.navlinks li a{
+  color: white;
+  font-weight: bold;
+  font-size: 13px;
+  text-decoration: none;
+  transition: 0.4s;
+}
+.navlinks li a:hover{
+  color: grey;
+}
+.buynow{
+  font-weight: bold;
+  font-size: 14px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+#lastlink{
+  padding-right: 0px !important;
+}
+.buynow:hover{
+
+}
+.logoname{
+  text-decoration: none;
+  color: white;
+  font-size: 22px;
+  letter-spacing: 0.05rem;
+  padding-left: 5px;
+  transition: 0.3s;
+  position: absolute;
+  top: 25px;
+}
+.logoname:hover{
+  text-decoration: none;
+  color: grey;
+  letter-spacing: 1px;
+}
+.col-10{
+    padding: 0px;
+}
+#mySection {
+  height: 1200px;
+  background: linear-gradient(135deg, #5fc7c6 0%, #361291 100%);
+}
+#mySection .container .row h1 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 3rem;
+  font-weight: 700;
+  color: white;
+}
+#mySection .container .row p {
+  padding-left: 35%;
+  padding-right: 35%;
+  color: rgb(231, 231, 231);
+}
+.images {
+  overflow: hidden;
+}
+.mySlides{
+  display: flex;
+}
+.images .mySlides img{
+   height: 100%;
+   width: 100%;
+}
+.leftarrow i{
+    color: white;
+}
+.rightarrow i{
+    color: white;
+}
+.bottomtext{
+  font-size: 22px;
+  font-weight: lighter;
+}
+#back, #next{
+  border: circle;
+  background-color: rgba(0,0,0,.5);
+  border-radius: 50%;
+  padding: 1rem;
+  padding-left: 1.1rem;
+  padding-right: 1.1rem;
+}
+#headsection1{
+    height: 520px;
+    background: url(https://mobirise.com/extensions/startupamp/assets/images/background10.jpg),rgba(255, 0, 150, 0.3);
+    position: relative;
+    background-position: 50% 50%; 
+}
+#headsection1::before{
+  content: "";
+  position: absolute;
+  left: 0; right: 0;
+  top: 0; bottom: 0;
+  background: linear-gradient(
+  135deg,#a54997b4 0%,#022e93a4 100%); 
+}
+#sec1text{
+  font-weight: bold;
+  color: white;
+  font-size: 70px;
+}
+.customrow{
+  padding-top: 150px;
+}
+#section3{
+  height: 640px;
+  background: linear-gradient(
+135deg,#adc7fd 0%,#f1f4fa 100%);
+}
+.phoneimg{
+  height: 400px;
+  width: 550px;
+  border-radius: 15px;
+  position: relative;
+}
+.rowsec3{
+ padding-top: 7rem;
+}
+.launchstartup{
+  font-size: 35px;
+  font-weight: lighter;
+  padding-bottom: 20px;
+}
+.bolder{
+  font-weight: normal;
+}
+.sec2text{
+  font-size: 22px;
+  line-height: 40px;
+  font-weight: lighter;
+  padding-bottom: 30px;
+}
+.button1{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  font-weight: bold;
+  font-size: 13px;
+  letter-spacing: 0.2px;
+}
+.button2{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+.fa-play-circle{
+  padding-top: 6px;
+  color: black;
+  padding-right: 13px;
+  font-size: 20px;
+}
+.videotemplate{
+  position: absolute;
+  top: 45%;
+  left: 20%;
+  background-color: rgba(255, 255, 255, 0.747);
+  border-radius: 30px;
+  padding: 20px 40px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+.videotemplate:hover{
+  background-color: rgba(190, 190, 190, 0.822);
+}
+.videotext{
+  font-weight: bolder;
+  font-size: 20px;
+}
+#section4{
+  padding-bottom: 40px;
+}
+.image4{
+  margin-top: 120px;
+  height: 400px;
+  margin-bottom: 200px;
+  position: relative;
+}
+.phonebgc4{
+  position: relative;
+  width: 800px;
+  height: 100%;
+  border-radius: 40px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.launchstr{
+  font-weight: bold !important;
+}
+.sec4imgleft{
+  position: absolute;
+  top: 100px;
+  left: 90px;
+  color: white;
+  font-size: 45px;
+  font-weight: lighter;
+}
+.sec4textleft{
+  position: absolute;
+  left: 90px;
+  top: 240px;
+  font-size: 20px;
+  font-weight: lighter;
+  color:  white;
+}
+.sec4circle{
+  position: absolute;
+  right: 120px;
+  top: 150px;
+  font-size: 90px;
+  color: white;
+} 
+.morelivedemo{
+  font-size: 50px;
+  font-weight: bolder;
+  padding: 0px 300px;
+  padding-bottom: 44px;
+}
+.footer{
+  height: 100px;
+  background: linear-gradient(
+    135deg,#022e93 0%,#19a3c1 100%);
+}
+.footer p{
+  font-size: 22px;
+  color: white;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+.footer p a{
+  color: rgb(207, 207, 0);
+  transition: 0.2s ease-in-out;
+}
+.footer p a:hover{
+  text-decoration: none;
+  color: rgba(230, 177, 1, 0.863);
+}
+.roundedtop,.roundedtopimage{
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.roundedtop{
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.cardshadow{
+  border: none;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  margin-bottom: 40px;
+  transition: 0.3s;
+}
+.cardshadow:hover{
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.headingcard{
+  font-weight: bolder;
+  font-size: 26px;
+}
+.cardbutton{
+  margin-left: 100px;
+  margin-bottom: 25px;
+  background-color: #30D5A5;
+  color: white;
+  transition: 0.4s;
+}
+.cardbuttonlast{
+  margin-left: 0px;
+  margin-bottom: 25px;
+  background-color: #30D5A5;
+  color: white;
+  transition: 0.4s;
+}
+.cardbuttonlast:hover{
+  background-color: #1fa17d;
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.cardbutton:hover{
+  background-color: #1fa17d;
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
